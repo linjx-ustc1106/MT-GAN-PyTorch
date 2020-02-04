@@ -1,5 +1,5 @@
 # MT-GAN-PyTorch
-PyTorch Implementation of "Learning to Transfer: Unsupervised Domain Translation via Meta-Learning" 
+PyTorch Implementation of AAAI-2020 Paper "Learning to Transfer: Unsupervised Domain Translation via Meta-Learning" 
 <img src="examples/illustration.png" />
 # Dependency:
 Python 3.6
