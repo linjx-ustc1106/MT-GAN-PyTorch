@@ -6,7 +6,7 @@ Python 3.6
 
 PyTorch 0.4.0
 # Usage:
-### Unsupervised Zero-Shot Image-to-Image Transaltion
+### Unsupervised Domain Translation via Meta-Learning
 1. Downloading labels2photos, horses2zebras, summer2winter, apple2orange, monet2photo, cezanne2photo, ukiyoe2photo, vangogh2photo, photos2maps and labels2facades datasets following [CycleGAN](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix).
 
 2. Organize these translation datasets as:
