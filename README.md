@@ -21,10 +21,19 @@ PyTorch 0.4.0
            ├── trainB
        ...
     
-3. Train MT-GAN:
+3. Train MT-GAN on 10-shot tranlation:
 
    `$ python train.py --name mtgan_results --model mt_gan --meta_dataroot meta_datarooot --k_spt 10 --k_qry 10 --finetune_step 1000`
    
-4. Test MT-GAN:
+4. Test MT-GAN on 10-shot translation:
   
    `$ python test.py --name mtgan_results --model mt_gan --meta_dataroot meta_datarooot --k_spt 10 --k_qry 10 --finetune_step 1000`
+   
+5. Train MT-GAN on 5-shot translation:
+
+   `$ python train.py --name mtgan_results --model mt_gan --meta_dataroot meta_datarooot --k_spt 5 --k_qry 5 --finetune_step 1000`
+   
+6. Test MT-GAN on 5-shot translation:
+  
+   `$ python test.py --name mtgan_results --model mt_gan --meta_dataroot meta_datarooot --k_spt 5 --k_qry 5 --finetune_step 1000`
+
